@@ -1,1 +1,9 @@
-# Set up Bundler here following the instructions in the README
+# Set up Bundler here follo
+require 'bundler/setup'
+Bundler.require(:default, :development)
+require 'awesome_print'
+
+array = [1,2,3,4]
+hash = {:a => 1, :b => 5}
+ap array
+ap hash
